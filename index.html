@@ -9,18 +9,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="private/style/style.css">
+    <script src="private/src/timezone.js"></script>
     <title>CalcZone</title>
 </head>
-<body>
+<body onload="timezone()">
     <header class="header">
         <div class="logo">
             <h2>CalcZone</h2>
         </div>
         <div class="link">
-            <a href="#">home</a>
+            <a href="/">home</a>
         </div>
         <div class="link">
-            <a href="#">about</a>
+            <a href="/private/view/about.html">about</a>
         </div>
     </header>
     <div class="conteiner">
@@ -35,11 +36,14 @@
                 </div>
             </div>
             <div id="button">
-                <button id="btn">Calculates</button>
+                <button id="btn">Calculate</button>
             </div>
         </div>
     </div>
 
+    <footer>
+        
+    </footer>
     <script src="private/src/index.js" type="module"></script>
 </body>
 </html>

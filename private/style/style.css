@@ -22,7 +22,7 @@ body{
     text-decoration: underline;
 }
 #calculator{
-    width: 85%;
+    width: 95%;
     margin: auto;
     background: #ffffff;
     box-shadow: 0 0 2.2em rgba(0,0,0,.3);
@@ -52,5 +52,28 @@ body{
     box-shadow: 0 0 2.2em rgba(0,0,0,.3);
     border-radius: 10px 20px;
     background: none;
+    margin-top: 10px;
+}
+/*
+    about.html
+*/
+.conteinerB{
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 3px 0 2px rgba(0,0,0,.3);
+    background-color: #ffffff;
     margin-top: 10px;
 }
