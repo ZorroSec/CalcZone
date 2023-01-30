@@ -6,7 +6,7 @@ const timezone = ()=>{
     let day = now.toString()
     let min = checkTime(minu)
     let sec = checkTime(seco)
-    document.querySelector('footer').innerHTML=`<i>${day}</i>`
+    document.querySelector('footer').innerHTML=`<i>&copy; <b>Zezao</b> ${day}</i>`
     setTimeout('timezone()', 500)
 }
 const checkTime = (i)=>{
