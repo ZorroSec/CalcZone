@@ -65,6 +65,27 @@ body{
     align-items: center;
     justify-content: center;
 }
+.calc{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.calc button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: none;
+    border: none;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all table tr, td, th{
+    border: 1px solid #000;
+    padding: 10px;
+}
 footer{
     display: flex;
     align-items: center;
